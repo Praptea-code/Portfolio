@@ -1,0 +1,131 @@
+*{    box-sizing:border-box;
+}
+#navbar{     background-color:#b53e3e;
+    display:flex;
+    height:150px;
+    padding:50px;
+    top:0;   
+position:fixed;
+width:100%;
+z-index:1;
+}
+nav ul{
+ list-style-type:none;
+    display:flex;
+    margin-left:auto;
+    gap:20px;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration:none;
+    font-size:30px;
+    font-weight:bold;
+    color:white;
+    font-family:arial;
+}
+header{
+    padding:150px;
+background-color:#222222;
+    color:white;
+    width:100%;
+}
+.namaste{
+    text-align:center;
+    font-family:Brush Script MT ;
+    font-weight:normal;
+    font-size:75px;
+    color:orangered;
+}
+h1{
+    text-align:center;
+}
+.bad{
+    font-size:35px;color:#ed6b7e;
+}
+.namaste:hover{
+    color:#ed6b7e;
+    transform:scale(1.5);
+}
+.namaste {
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
+p{
+    text-align:center;
+    font-size:20px;
+}
+p.momo{
+    font-style: italic;
+    font-size:23px;
+}
+#projects{
+text-align:center;padding-left:50px;padding-top:150px;
+padding-bottom:100px;
+background-color:#3b3363;
+color:#ccc8e3;
+font-size:28px;
+width:100%;
+}
+.project-tile{
+ color:white;
+}
+.project-discription{
+ color:#ccc8e3;
+ font-size:15px;
+}
+.view{
+    color:#ed6b7e;
+}
+#about{
+    background-color:#222222;
+    color:white;
+    padding: 200px 50px;
+    width:100%;
+text-align:center;
+}
+.me{
+  font-size:45px;
+  color:orangered;
+}
+.view:hover{
+    color:white;
+}
+.me:hover{
+    color:#ed6b7e;
+    transform:scale(1.5);
+}
+.me {
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
+#contact{
+background-color:#b53e3e; 
+padding:80px 50px;
+width:100%;
+}
+.work {
+    text-align:center;
+    font-size:45px;
+    font-weight:bold;
+    font-family:Georgia;
+    color:#3b3363;
+}
+.work:hover{
+    color:black;
+}
+.coffee{
+    text-align:center;
+    font-style:italic;
+}
+#profile-link{
+    color:black;
+    text-align:center;
+    display:flex;
+justify-content:center;
+}
+@media (max-width:400px){
+
+}
